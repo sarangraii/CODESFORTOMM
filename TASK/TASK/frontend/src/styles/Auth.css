@@ -1,0 +1,125 @@
+/* Auth.css - Styling for Login and Register pages */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FF8A8A;
+    padding: 20px;
+    background-image: linear-gradient(135deg, rgba(255, 192, 203, 0.3) 0%, rgba(147, 112, 219, 0.3) 100%);
+  }
+  
+  .auth-card {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .register-card {
+    max-width: 550px;
+  }
+  
+  .auth-header {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .auth-header h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .auth-header p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row .form-group {
+    flex: 1;
+    margin-bottom: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus, select:focus {
+    border-color: #9370DB;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(147, 112, 219, 0.2);
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #FF8A8A;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #f43f5e;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #b8a6d9;
+    cursor: not-allowed;
+  }
+  
+  .auth-footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #666;
+  }
+  
+  .auth-footer a {
+    color: #f43f5e;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .auth-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    background-color: #ffebee;
+    color: #d32f2f;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
